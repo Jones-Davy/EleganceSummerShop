@@ -312,7 +312,7 @@ a.nav__logo:hover {
 
     .header__content {
         position: absolute;
-        left: 0;
+        left: 100px;
         top: 50%;
         transform: translateY(-50%);
         max-width: 55%;
@@ -800,25 +800,84 @@ text-transform: uppercase;
     .card__info {
         max-width: 150px;
         height: auto;
+        font-size: 11px;
     }
 
     .card__title {
         max-width: 170px;
         height: auto;
+        font-size: 15px;
     }
 
     .card__link {
         max-width: 150px;
         padding-top: 15px;
+        font-size: 14px;
     }
 
     .card__desc {
         width: 170px;
         margin-right: 80px;
-        font-size: 11px;
     }
 
     .block__card {
         max-width: 500px;
+    }
+}
+
+@media(max-width:365px) {
+    .card__info {
+        max-width: 110px;
+        font-size: 10px;
+    }
+
+    .card__title {
+        max-width: 140px;
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 1100px) {
+    .header__title {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 895px) {
+    p {
+        font-size: 15px;
+    }
+
+    .header__title {
+        font-size: 45px;
+    }
+
+    .header__content {
+        left: 80px;
+    }
+}
+
+@media(max-width: 765px) {
+    .header__content {
+        left: 70px;
+    }
+}
+
+@media(max-width: 765px) {
+    .header__content {
+        left: 0;
+    }
+
+    .header__title {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 13px;
     }
 }
